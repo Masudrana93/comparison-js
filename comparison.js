@@ -194,5 +194,5 @@ console.log("test" === "TEST"); //it is false due to small letter and capital le
 
 const variableA = hello;
 const variableB = "Hello";
-console.log(variableA == variableB); //it shows error as hello string data is written here without "" any mark.
-console.log(variableA === variableB);
+console.log(variableA == variableB); //it shows an error as the string 'hello' is written without any quotation marks.
+console.log(variableA === variableB); //it shows an error because the string "hello" is written without quotation marks and one value starts with capital letter while the other starts with a lowercase letter .
